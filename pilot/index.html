@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="ImReadyToScan.com" />
+  <title>Request a 30-Day Pilot | ImReadyToScan.com</title>
+  <meta name="description" content="Request a free capped 30-day ImReadyToScan pilot for your imaging department. No obligation to buy." />
+  <meta property="og:title" content="Request a 30-Day Pilot | ImReadyToScan.com" />
+  <meta property="og:description" content="Request a free capped 30-day ImReadyToScan pilot for your imaging department. No obligation to buy." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="../favicon.png" type="image/png" />
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="preconnect" href="https://formsubmit.co" crossorigin />
+</head>
+<body>
+  <div class="site">
+    <header class="site-header">
+      <div class="page-wrap header-inner">
+        <a href="../" class="logo-link" aria-label="ImReadyToScan home">
+          <img src="../assets/logo-full.svg" alt="ImReadyToScan" class="logo-img" width="515" height="469" />
+        </a>
+
+        <nav class="nav-desktop" aria-label="Main navigation">
+          <a href="../" class="nav-link">Home</a>
+          <a href="../hospital-benefits/" class="nav-link">Hospital Benefits</a>
+          <a href="../about-compliance/" class="nav-link">About &amp; Compliance</a>
+          <a href="../contact/" class="nav-link">Contact Us</a>
+          <a href="../pilot/" class="btn btn-pilot btn-lg">Request a 30-Day Pilot</a>
+        </nav>
+
+        <details class="nav-mobile">
+          <summary>
+            <svg class="icon-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg>
+            <span class="sr-only">Open menu</span>
+          </summary>
+          <div class="nav-mobile-panel">
+            <a href="../">Home</a>
+            <a href="../hospital-benefits/">Hospital Benefits</a>
+            <a href="../about-compliance/">About &amp; Compliance</a>
+            <a href="../contact/">Contact Us</a>
+            <a href="../pilot/" class="btn btn-pilot btn-lg">Request a 30-Day Pilot</a>
+          </div>
+        </details>
+      </div>
+    </header>
+
+    <main>
+      <section class="pilot-request">
+        <div class="page-wrap">
+          <p class="eyebrow">Free 30-day pilot</p>
+          <h1 class="legal-title">Request a 30-day pilot</h1>
+          <p class="pilot-intro">Tell us a little about your imaging department. Within 1 to 2 business days, we will email a short pilot agreement for you to review and sign electronically. There is no cost during the capped 30-day pilot and no obligation to buy. The pilot is open to a limited number of centers. Once the system is proven, the free pilot will no longer be offered. Please do not enter any patient information on this form.</p>
+
+          <form id="pilot-form" class="pilot-form contact-form" action="https://formsubmit.co/ajax/dennis@imreadytoscan.com" method="POST" novalidate>
+            <div class="hp-field" aria-hidden="true">
+              <label for="hp_website">Leave this field empty</label>
+              <input type="text" id="hp_website" name="_honey" tabindex="-1" autocomplete="off">
+            </div>
+            <input type="hidden" name="_subject" value="New pilot request">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="facility_address" id="facility_address" value="">
+
+            <fieldset class="form-group">
+              <legend>Your facility</legend>
+              <div class="form-field">
+                <label for="facility_name">Facility name <span class="req" aria-hidden="true">*</span></label>
+                <input id="facility_name" name="facility_name" type="text" required maxlength="150" autocomplete="organization">
+              </div>
+              <div class="form-field">
+                <label for="health_system">Health system (optional)</label>
+                <input id="health_system" name="health_system" type="text" maxlength="150">
+              </div>
+              <div class="form-field">
+                <label for="facility_street">Street address <span class="req" aria-hidden="true">*</span></label>
+                <input id="facility_street" name="facility_street" type="text" required maxlength="150" autocomplete="address-line1">
+              </div>
+              <div class="form-row form-row-3">
+                <div class="form-field">
+                  <label for="facility_city">City <span class="req" aria-hidden="true">*</span></label>
+                  <input id="facility_city" name="facility_city" type="text" required maxlength="80" autocomplete="address-level2">
+                </div>
+                <div class="form-field form-field-sm">
+                  <label for="facility_state">State <span class="req" aria-hidden="true">*</span></label>
+                  <input id="facility_state" name="facility_state" type="text" required maxlength="2" pattern="[A-Za-z]{2}" value="FL" autocomplete="address-level1" aria-describedby="state_help">
+                  <p class="form-help" id="state_help">2 letters, for example FL</p>
+                </div>
+                <div class="form-field form-field-sm">
+                  <label for="facility_zip">ZIP code <span class="req" aria-hidden="true">*</span></label>
+                  <input id="facility_zip" name="facility_zip" type="text" required inputmode="numeric" pattern="[0-9]{5}(-[0-9]{4})?" maxlength="10" autocomplete="postal-code">
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-group">
+              <legend>About you</legend>
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="contact_name">Your name <span class="req" aria-hidden="true">*</span></label>
+                  <input id="contact_name" name="contact_name" type="text" required maxlength="100" autocomplete="name">
+                </div>
+                <div class="form-field">
+                  <label for="contact_title">Your title <span class="req" aria-hidden="true">*</span></label>
+                  <input id="contact_title" name="contact_title" type="text" required maxlength="100" autocomplete="organization-title">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="contact_email">Work email <span class="req" aria-hidden="true">*</span></label>
+                  <input id="contact_email" name="contact_email" type="email" required maxlength="150" autocomplete="email">
+                </div>
+                <div class="form-field">
+                  <label for="contact_phone">Work phone <span class="req" aria-hidden="true">*</span></label>
+                  <input id="contact_phone" name="contact_phone" type="tel" required maxlength="25" autocomplete="tel" aria-describedby="phone_help">
+                  <p class="form-help" id="phone_help">We use your phone number only to respond to your request. We do not send marketing texts.</p>
+                </div>
+              </div>
+              <div class="form-field">
+                <label for="best_time">Best time to reach you (optional)</label>
+                <select id="best_time" name="best_time">
+                  <option value="">Choose one</option>
+                  <option>Morning</option>
+                  <option>Midday</option>
+                  <option>Afternoon</option>
+                  <option>Any time</option>
+                </select>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-group">
+              <legend>Who signs agreements for your department?</legend>
+              <p class="form-help" id="signer_help">We will send the pilot agreement to this person. If it is you, enter your own details.</p>
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="signer_name">Signer's name <span class="req" aria-hidden="true">*</span></label>
+                  <input id="signer_name" name="signer_name" type="text" required maxlength="100" aria-describedby="signer_help">
+                </div>
+                <div class="form-field">
+                  <label for="signer_title">Signer's title <span class="req" aria-hidden="true">*</span></label>
+                  <input id="signer_title" name="signer_title" type="text" required maxlength="100">
+                </div>
+              </div>
+              <div class="form-field">
+                <label for="signer_email">Signer's email <span class="req" aria-hidden="true">*</span></label>
+                <input id="signer_email" name="signer_email" type="email" required maxlength="150">
+              </div>
+            </fieldset>
+
+            <fieldset class="form-group" id="modalities_group" aria-describedby="modalities_help">
+              <legend>Modalities to include <span class="req" aria-hidden="true">*</span></legend>
+              <p class="form-help" id="modalities_help">Check at least one.</p>
+              <div class="checkbox-grid">
+                <label class="checkbox-field"><input type="checkbox" name="modalities" value="X-ray"> <span>X-ray</span></label>
+                <label class="checkbox-field"><input type="checkbox" name="modalities" value="CT"> <span>CT</span></label>
+                <label class="checkbox-field"><input type="checkbox" name="modalities" value="MRI"> <span>MRI</span></label>
+                <label class="checkbox-field"><input type="checkbox" name="modalities" value="Ultrasound"> <span>Ultrasound</span></label>
+                <label class="checkbox-field"><input type="checkbox" name="modalities" value="Nuclear Medicine"> <span>Nuclear Medicine</span></label>
+                <label class="checkbox-field"><input type="checkbox" name="modalities" value="PET/CT"> <span>PET/CT</span></label>
+                <label class="checkbox-field"><input type="checkbox" name="modalities" value="Mammography"> <span>Mammography</span></label>
+                <label class="checkbox-field"><input type="checkbox" name="modalities" value="Fluoroscopy"> <span>Fluoroscopy</span></label>
+                <label class="checkbox-field"><input type="checkbox" name="modalities" value="DEXA"> <span>DEXA</span></label>
+                <label class="checkbox-field"><input type="checkbox" name="modalities" value="Interventional"> <span>Interventional</span></label>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-group">
+              <legend>Your department</legend>
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="exams_per_month">About how many outpatient exams per month? <span class="req" aria-hidden="true">*</span></label>
+                  <select id="exams_per_month" name="exams_per_month" required>
+                    <option value="">Choose one</option>
+                    <option>Under 500</option>
+                    <option>500 to 1,000</option>
+                    <option>1,000 to 2,500</option>
+                    <option>2,500 to 5,000</option>
+                    <option>Over 5,000</option>
+                    <option>Not sure</option>
+                  </select>
+                </div>
+                <div class="form-field">
+                  <label for="scheduling_system">Scheduling system <span class="req" aria-hidden="true">*</span></label>
+                  <select id="scheduling_system" name="scheduling_system" required>
+                    <option value="">Choose one</option>
+                    <option>Epic</option>
+                    <option>Cerner / Oracle Health</option>
+                    <option>Meditech</option>
+                    <option>Other</option>
+                    <option>Not sure</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="start_month">Preferred pilot start month <span class="req" aria-hidden="true">*</span></label>
+                  <select id="start_month" name="start_month" required>
+                    <option value="">Choose one</option>
+                    <option>As soon as possible</option>
+                    <option>Not sure yet</option>
+                  </select>
+                </div>
+                <div class="form-field">
+                  <label for="referral_source">How did you hear about us? (optional)</label>
+                  <input id="referral_source" name="referral_source" type="text" maxlength="150">
+                </div>
+              </div>
+              <div class="form-field">
+                <label for="comments">Comments (optional)</label>
+                <textarea id="comments" name="comments" rows="4" maxlength="2000" aria-describedby="comments_help"></textarea>
+                <p class="form-help" id="comments_help">Please do not include patient information.</p>
+              </div>
+            </fieldset>
+
+            <div class="form-consent">
+              <label class="checkbox-field">
+                <input type="checkbox" name="agree_terms" value="Yes" required>
+                <span>I agree to the <a href="../terms-conditions/" target="_blank" rel="noopener">Terms &amp; Conditions</a> and <a href="../privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a>. <span class="req" aria-hidden="true">*</span></span>
+              </label>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-pilot btn-xl">Send my pilot request</button>
+              <p class="form-note"><span aria-hidden="true">*</span> Required</p>
+            </div>
+            <p class="form-status" id="pilot-status" role="status" aria-live="polite"></p>
+          </form>
+
+          <div class="pilot-thanks" id="pilot-thanks" tabindex="-1" hidden>
+            <h2>Thank you. We received your request.</h2>
+            <p>Within 1 to 2 business days, Dennis Love will email the pilot agreement to the signer you listed, for review and electronic signature. There is no obligation to buy.</p>
+            <p>Questions? Email <a href="mailto:dennis@imreadytoscan.com">dennis@imreadytoscan.com</a> or call <a href="tel:+17722028841">(772) 202-8841</a>.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-wrap footer-inner">
+        <div>
+          <img src="../assets/logo-full.svg" alt="ImReadyToScan" class="footer-logo" width="515" height="469" />
+          <p class="footer-copy">Patient preparation that protects imaging capacity, scheduler time, and the care experience.</p>
+          <nav class="footer-links" aria-label="Footer">
+            <a href="../privacy-policy/">Privacy Policy</a>
+            <a href="../terms-conditions/">Terms &amp; Conditions</a>
+            <a href="../sms-terms/">SMS Terms</a>
+            <a href="https://www.linkedin.com/company/imreadytoscan/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </nav>
+          <p class="footer-legal">&copy; 2026 ImReadyToScan, LLC <span aria-hidden="true">&middot;</span> All videos, graphics, narration, and content are owned by Dennis Love. No copying, downloading, sharing, re-uploading, or other use without written permission. <span aria-hidden="true">&middot;</span> 4600 Sand Point Rd, Grant, FL 32949 <span aria-hidden="true">&middot;</span> <a href="tel:+17722028841">(772) 202-8841</a> <span aria-hidden="true">&middot;</span> <a href="mailto:dennis@imreadytoscan.com">dennis@imreadytoscan.com</a></p>
+        </div>
+        <a href="../pilot/" class="btn btn-pilot btn-lg">
+          Request Pilot
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+      </div>
+    </footer>
+  </div>
+  <script src="../js/main.js" defer></script>
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var form = document.getElementById("pilot-form");
+    if (!form) return;
+    var status = document.getElementById("pilot-status");
+    var thanks = document.getElementById("pilot-thanks");
+
+    var monthSelect = document.getElementById("start_month");
+    var notSure = monthSelect.querySelector("option:last-child");
+    var now = new Date();
+    for (var i = 1; i <= 6; i++) {
+      var d = new Date(now.getFullYear(), now.getMonth() + i, 1);
+      var label = d.toLocaleString("en-US", { month: "long", year: "numeric" });
+      monthSelect.insertBefore(new Option(label, label), notSure);
+    }
+
+    function showError(msg) {
+      status.textContent = msg;
+      status.classList.add("is-error");
+    }
+
+    form.addEventListener("submit", function (event) {
+      event.preventDefault();
+      var boxes = form.querySelectorAll('input[name="modalities"]:checked');
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        showError("Please fill in every field marked with *.");
+        return;
+      }
+      if (boxes.length === 0) {
+        showError("Please check at least one modality.");
+        var firstModality = form.querySelector('input[name="modalities"]');
+        if (firstModality) firstModality.focus();
+        return;
+      }
+
+      var data = new FormData(form);
+      data.delete("modalities");
+      data.append("modalities", Array.prototype.map.call(boxes, function (b) { return b.value; }).join(", "));
+      data.set("facility_address",
+        data.get("facility_street") + ", " + data.get("facility_city") + ", " +
+        String(data.get("facility_state")).toUpperCase() + " " + data.get("facility_zip"));
+      data.set("_subject", "New pilot request: " + data.get("facility_name"));
+
+      var button = form.querySelector('button[type="submit"]');
+      button.disabled = true;
+      status.classList.remove("is-error");
+      status.textContent = "Sending...";
+
+      fetch(form.action, { method: "POST", body: data, headers: { "Accept": "application/json" } })
+        .then(function (response) {
+          if (!response.ok) throw new Error("Send failed");
+          form.hidden = true;
+          thanks.hidden = false;
+          thanks.focus();
+        })
+        .catch(function () {
+          button.disabled = false;
+          showError("Sorry, something went wrong. Please try again, or email dennis@imreadytoscan.com.");
+        });
+    });
+  });
+  </script>
+</body>
+</html>
