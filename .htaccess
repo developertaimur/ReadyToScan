@@ -1,5 +1,8 @@
 RewriteEngine On
 
+# Patient prep page lives on imreadytoscan.org (query string preserved)
+RewriteRule ^prep\.html$ https://imreadytoscan.org/prep.html [R=301,L]
+
 # Force HTTPS
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
